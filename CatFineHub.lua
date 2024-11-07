@@ -248,6 +248,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/main/
 })
 
 local Section = Tab:AddSection({
+Name = "Models"
+})
+
+Tab:AddButton({
+Name = "Curious Portal (NEW!)",
+Callback = function()
+      print("Executed Curious Portal")
+loadstring(game:HttpGet("https://pastebin.com/raw/HT8jgqAY"))()
+  end    
+})
+
+local Section = Tab:AddSection({
 Name = "Hubs"
 })
 
@@ -262,7 +274,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/mai
 })
 
 Tab:AddButton({
-Name = "Rafanchik123 (Mobile NEW!)",
+Name = "Rafanchik123 (Mobile)",
 Callback = function()
       print("Executed Rafanchik123")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafanchik123/script/main/doors224"))()
@@ -358,6 +370,14 @@ Callback = function()
   end    
 })
 
+MM2Tab:AddButton({
+Name = "Vynixu MM2",
+Callback = function()
+      print("Executed Vynixu MM2")
+  loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+  end    
+})
+
 
 
 local Section = Tab:AddSection({
@@ -428,4 +448,3 @@ Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua'))()
   end    
 })
-
